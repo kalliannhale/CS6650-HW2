@@ -1,0 +1,31 @@
+# every girl needs a little privacy filter... this is ours. ♡
+# we're telling git what not to look at. some things are just for us.
+
+# ✧･ﾟ: *✧･ﾟ:* her secrets *:･ﾟ✧*:･ﾟ✧
+# this is our non-negotiable. never, ever share your tfvars file. it's tacky.
+*.tfvars
+*.tfvars.json
+
+# ✧･ﾟ: *✧･ﾟ:* her diary *:･ﾟ✧*:･ﾟ✧
+# this is the state of our world. it's a little personal and can have secrets.
+# we don't want to show everyone how we got here.
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+
+# ✧･ﾟ: *✧･ﾟ:* her glam squad *:･ﾟ✧*:･ﾟ✧
+# these are the plugins terraform downloads to work its magic.
+# she can always call them again with `terraform init`. no need to pack them.
+.terraform/
+
+# ✧･ﾟ: *✧･ﾟ:* her rough drafts & oopsies *:･ﾟ✧*:･ﾟ✧
+# crash logs are not chic, and plan files are just sketches for us.
+crash.log
+*.tfplan
+
+# ✧･ﾟ: *✧･ﾟ:* digital lint *:･ﾟ✧*:･ﾟ✧
+# just tidying up the little messes our computers leave behind. so boring.
+.DS_Store
+Thumbs.db
+
+AWSCLIV2.pkg
